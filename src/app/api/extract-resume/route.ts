@@ -99,7 +99,7 @@ export async function POST(req: NextRequest) {
           {
             "id": "string (generate a random numeric string)",
             "name": "string",
-            "category": "string (MUST be one of: Frontend, State Management, UI Libraries, Testing, Backend & APIs, Databases, Other)"
+            "category": "string (MUST be one of: Frontend, State Management, UI Libraries, Testing, Backend & APIs, Databases, Architecture & Performance, Tools, Other)"
           }
         ],
         "projects": [

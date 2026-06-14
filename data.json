@@ -206,6 +206,41 @@
       "id": "1781364416797",
       "name": "GraphQL",
       "category": "Backend & APIs"
+    },
+    {
+      "id": "1781433444886",
+      "name": "NX",
+      "category": "Tools"
+    },
+    {
+      "id": "1781433457978",
+      "name": "Vercel AI",
+      "category": "Tools"
+    },
+    {
+      "id": "1781436703421",
+      "name": "Frontend Architecture",
+      "category": "Architecture & Performance"
+    },
+    {
+      "id": "1781436712366",
+      "name": "Performance Optimization",
+      "category": "Architecture & Performance"
+    },
+    {
+      "id": "1781436745110",
+      "name": "Component Design",
+      "category": "Architecture & Performance"
+    },
+    {
+      "id": "1781436759139",
+      "name": "State Management",
+      "category": "Architecture & Performance"
+    },
+    {
+      "id": "1781436775926",
+      "name": "Responsive Design",
+      "category": "Architecture & Performance"
     }
   ],
   "projects": [

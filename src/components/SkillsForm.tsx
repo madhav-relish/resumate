@@ -50,6 +50,8 @@ export function SkillsForm() {
                 <option value="Testing">Testing</option>
                 <option value="Backend & APIs">Backend & APIs</option>
                 <option value="Databases">Databases</option>
+                <option value="Architecture & Performance">Architecture & Performance</option>
+                <option value="Tools">Tools</option>
               </select>
             </div>
           </div>
