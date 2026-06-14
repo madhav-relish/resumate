@@ -139,6 +139,10 @@ export default function PortfolioPage() {
 
   const firstName = personalInfo.fullName ? personalInfo.fullName.split(' ')[0] : 'Visitor';
 
+  useEffect(() => {
+    document.title = personalInfo.fullName ? `${personalInfo.fullName} - Portfolio` : 'My Portfolio';
+  }, [personalInfo.fullName]);
+
   return (
     <div ref={containerRef} style={{ height: '100vh', backgroundColor: 'var(--bg-primary)', overflowY: 'auto', overflowX: 'hidden', position: 'relative' }}>
       
