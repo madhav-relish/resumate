@@ -24,7 +24,7 @@ const ClassicTemplate = ({ data }: { data: ResumeData }) => {
   const sortedEducation = sortChronologically(education);
   const atsProjects = projects.filter(p => !p.portfolioOnly);
   const groupedSkills = skills.reduce((acc, skill) => {
-    const cat = skill.category || skill.level || 'Other';
+    const cat = skill.category || (skill as any).level || 'Other';
     if (!acc[cat]) acc[cat] = [];
     acc[cat].push(skill.name);
     return acc;
@@ -135,7 +135,7 @@ const ModernTemplate = ({ data }: { data: ResumeData }) => {
   const sortedEducation = sortChronologically(education);
   const atsProjects = projects.filter(p => !p.portfolioOnly);
   const groupedSkills = skills.reduce((acc, skill) => {
-    const cat = skill.category || skill.level || 'Other';
+    const cat = skill.category || (skill as any).level || 'Other';
     if (!acc[cat]) acc[cat] = [];
     acc[cat].push(skill.name);
     return acc;
@@ -256,7 +256,7 @@ const MinimalistTemplate = ({ data }: { data: ResumeData }) => {
   const sortedEducation = sortChronologically(education);
   const atsProjects = projects.filter(p => !p.portfolioOnly);
   const groupedSkills = skills.reduce((acc, skill) => {
-    const cat = skill.category || skill.level || 'Other';
+    const cat = skill.category || (skill as any).level || 'Other';
     if (!acc[cat]) acc[cat] = [];
     acc[cat].push(skill.name);
     return acc;

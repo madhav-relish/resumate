@@ -10,7 +10,7 @@ import { motion, useScroll } from 'framer-motion';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } }
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' as const } }
 };
 
 const staggerContainer = {
@@ -100,7 +100,7 @@ export default function PortfolioPage() {
   const sortedEducation = sortChronologically(education);
 
   const groupedSkills = skills.reduce((acc, skill) => {
-    const cat = skill.category || skill.level || 'Other';
+    const cat = skill.category || (skill as any).level || 'Other';
     if (!acc[cat]) acc[cat] = [];
     acc[cat].push(skill.name);
     return acc;

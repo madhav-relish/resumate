@@ -41,7 +41,7 @@ export function SkillsForm() {
               <label style={{ fontSize: '0.875rem', fontWeight: 500, color: 'var(--text-secondary)' }}>Category</label>
               <select 
                 className="input-field" 
-                value={skill.category || skill.level} // Fallback to level for backwards compatibility
+                value={skill.category || (skill as any).level} // Fallback to level for backwards compatibility
                 onChange={e => handleChange(skill.id, 'category', e.target.value)}
               >
                 <option value="Frontend">Frontend</option>
