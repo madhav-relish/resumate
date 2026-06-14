@@ -1,0 +1,245 @@
+{
+  "personalInfo": {
+    "fullName": "Madhav Singh",
+    "jobTitle": "Frontend Engineer",
+    "email": "madhavsingh203@gmail.com",
+    "phone": "+918209763004",
+    "location": "Gurugram",
+    "website": "",
+    "summary": "Frontend Engineer with 3+ years of experience building scalable web applications using React, Next.js, TypeScript, GraphQL, and modern frontend architectures. Experienced in performance optimization, React migrations, reusable component development, internationalization, and large-scale customer-facing platforms. Proven track record of delivering high-quality features through collaboration with product, design, and backend teams in Agile environments.",
+    "github": "https://github.com/madhav-relish",
+    "linkedin": "https://www.linkedin.com/in/madhavsingh203/"
+  },
+  "experience": [
+    {
+      "id": "1781345456325",
+      "company": "Ticketmaster India ",
+      "position": "Engineer 2",
+      "startDate": "2025-04",
+      "endDate": "",
+      "current": true,
+      "description": "<ul><li>Improved&nbsp;Interactive&nbsp;Seat&nbsp;Map&nbsp;<strong>responsiveness</strong>&nbsp;by&nbsp;<strong>migrating</strong>&nbsp;critical&nbsp;functionality&nbsp;from&nbsp;a&nbsp;l<strong>egacy&nbsp;.NET&nbsp;implementation&nbsp;to&nbsp;React</strong>&nbsp;and&nbsp;<strong>optimizing&nbsp;Redux&nbsp;state&nbsp;</strong>management&nbsp;to&nbsp;reduce&nbsp;unnecessary&nbsp;re-renders&nbsp;and&nbsp;improve&nbsp;user&nbsp;interactions.</li><li>Migrated&nbsp;<strong>10+&nbsp;legacy&nbsp;.NET&nbsp;modules</strong>&nbsp;and&nbsp;pages&nbsp;to&nbsp;<strong>React&nbsp;and&nbsp;TypeScript,</strong>&nbsp;improving&nbsp;maintainability,&nbsp;developer&nbsp;productivity,&nbsp;and&nbsp;long-term&nbsp;scalability.</li><li><strong>Developed&nbsp;and&nbsp;maintained&nbsp;15+&nbsp;client-specific&nbsp;themes</strong>&nbsp;and&nbsp;branding&nbsp;customizations&nbsp;within&nbsp;the&nbsp;existing&nbsp;theming&nbsp;framework,&nbsp;enabling&nbsp;tailored&nbsp;experiences&nbsp;across&nbsp;multiple&nbsp;markets.</li><li>Enhanced&nbsp;internationalization&nbsp;support&nbsp;by&nbsp;implementing&nbsp;<strong>RTL/LTR&nbsp;layouts</strong>,&nbsp;ensuring&nbsp;seamless&nbsp;experiences&nbsp;across&nbsp;different&nbsp;languages&nbsp;and&nbsp;regions.</li><li><strong>Built&nbsp;reusable&nbsp;React&nbsp;components&nbsp;and&nbsp;shared&nbsp;UI&nbsp;patterns,</strong>&nbsp;promoting&nbsp;consistency&nbsp;and&nbsp;reducing&nbsp;development&nbsp;effort&nbsp;across&nbsp;applications.</li><li>Integrated&nbsp;GraphQL&nbsp;and&nbsp;REST&nbsp;APIs&nbsp;while&nbsp;contributing&nbsp;to&nbsp;AI-powered&nbsp;workflow&nbsp;enhancements&nbsp;and&nbsp;customer-facing&nbsp;feature&nbsp;development.</li><li>Strengthened&nbsp;engineering&nbsp;quality&nbsp;through&nbsp;code&nbsp;reviews,&nbsp;testing&nbsp;initiatives,&nbsp;CI/CD&nbsp;quality&nbsp;gate&nbsp;improvements,&nbsp;and&nbsp;frontend&nbsp;best&nbsp;practices.</li></ul>"
+    },
+    {
+      "id": "1d2f7g4h9j6k3",
+      "company": "RELISH DEVELOPMENT SOLUTION",
+      "position": "Frontend Developer",
+      "startDate": "2023-05",
+      "endDate": "2024-09",
+      "current": false,
+      "description": "<ul><li><strong>Developed&nbsp;end-to-end&nbsp;e-commerce&nbsp;platforms&nbsp;and&nbsp;CRM&nbsp;dashboards</strong>&nbsp;for&nbsp;international&nbsp;clients,&nbsp;featuring&nbsp;multilingual&nbsp;support,&nbsp;order&nbsp;processing,&nbsp;performance&nbsp;monitoring,&nbsp;and&nbsp;catalog&nbsp;management.</li><li>Engineered&nbsp;<strong>real-time&nbsp;stock&nbsp;analysis&nbsp;tools</strong>&nbsp;that&nbsp;reduced&nbsp;investment&nbsp;decision-making&nbsp;time&nbsp;by&nbsp;25%.</li><li>Built&nbsp;employee&nbsp;analytics&nbsp;dashboards&nbsp;for&nbsp;an&nbsp;Email&nbsp;Marketing&nbsp;CRM,&nbsp;improving&nbsp;operational&nbsp;visibility&nbsp;and&nbsp;team&nbsp;productivity.</li><li>Collaborated&nbsp;with&nbsp;backend&nbsp;teams&nbsp;to&nbsp;integrate&nbsp;APIs&nbsp;and&nbsp;deliver&nbsp;scalable&nbsp;user-facing&nbsp;features&nbsp;using&nbsp;React&nbsp;and&nbsp;modern&nbsp;frontend&nbsp;technologies.</li></ul>"
+    },
+    {
+      "id": "5j8k2l1m4n7p0",
+      "company": "CRIO",
+      "position": "Frontend Developer (Intern)",
+      "startDate": "2022-10",
+      "endDate": "2023-04",
+      "current": false,
+      "description": "<ul><li>Developed&nbsp;production-grade&nbsp;frontend&nbsp;applications&nbsp;using&nbsp;React,&nbsp;JavaScript,&nbsp;HTML,&nbsp;and&nbsp;CSS&nbsp;while&nbsp;following&nbsp;industry&nbsp;best&nbsp;practices.</li><li>Collaborated&nbsp;with&nbsp;mentors&nbsp;and&nbsp;peers&nbsp;to&nbsp;implement&nbsp;scalable&nbsp;UI&nbsp;solutions&nbsp;and&nbsp;strengthen&nbsp;software&nbsp;engineering&nbsp;fundamentals.</li><li>Built&nbsp;multiple&nbsp;real-world&nbsp;projects&nbsp;emphasizing&nbsp;component-based&nbsp;architecture,&nbsp;state&nbsp;management,&nbsp;and&nbsp;API&nbsp;integration.</li></ul>"
+    },
+    {
+      "id": "9t1u6v3w8x5y2",
+      "company": "NEP GROUP",
+      "position": "Assistant Broadcast Engineer",
+      "startDate": "2020-02",
+      "endDate": "2022-08",
+      "current": false,
+      "description": "<ul><li>Developed&nbsp;JavaScript-based&nbsp;integration&nbsp;solutions&nbsp;for&nbsp;broadcast&nbsp;routers&nbsp;and&nbsp;switchers,&nbsp;improving&nbsp;live&nbsp;production&nbsp;reliability.</li><li>Contributed&nbsp;to&nbsp;large-scale&nbsp;live&nbsp;event&nbsp;broadcasts&nbsp;including&nbsp;the&nbsp;ICC&nbsp;Cricket&nbsp;World&nbsp;Cup&nbsp;through&nbsp;system&nbsp;optimization&nbsp;and&nbsp;troubleshooting.</li></ul>"
+    }
+  ],
+  "education": [
+    {
+      "id": "3a6b9c2d5e8f1",
+      "institution": "GLA UNIVERSITY",
+      "degree": "B.Tech",
+      "field": "E.C.E",
+      "startDate": "2016-08",
+      "endDate": "2020-06"
+    }
+  ],
+  "skills": [
+    {
+      "id": "2t5u8v1w4x7y0",
+      "name": "React.js",
+      "level": "Advanced",
+      "category": "Frontend"
+    },
+    {
+      "id": "6z9a2b5c8d1e4",
+      "name": "Next.js",
+      "level": "Advanced",
+      "category": "Frontend"
+    },
+    {
+      "id": "0f3g6h9i2j5k8",
+      "name": "Prisma",
+      "level": "Advanced",
+      "category": "Backend & APIs"
+    },
+    {
+      "id": "3l6m9n2o5p8q1",
+      "name": "JavaScript",
+      "level": "Expert",
+      "category": "Frontend"
+    },
+    {
+      "id": "7r0s3t6u9v2w5",
+      "name": "TypeScript",
+      "level": "Advanced",
+      "category": "Frontend"
+    },
+    {
+      "id": "1x4y7z0a3b6c9",
+      "name": "Node.js",
+      "level": "Advanced",
+      "category": "Backend & APIs"
+    },
+    {
+      "id": "5d8e1f4g7h0i3",
+      "name": "MongoDB",
+      "level": "Advanced",
+      "category": "Backend & APIs"
+    },
+    {
+      "id": "9j2k5l8m1n4o7",
+      "name": "Express.js",
+      "level": "Advanced",
+      "category": "Backend & APIs"
+    },
+    {
+      "id": "4p7q0r3s6t9u2",
+      "name": "Tailwind CSS",
+      "level": "Advanced",
+      "category": "Frontend"
+    },
+    {
+      "id": "8v1w4x7y0z3a6",
+      "name": "CSS",
+      "level": "Advanced",
+      "category": "Frontend"
+    },
+    {
+      "id": "2b5c8d1e4f7g0",
+      "name": "HTML",
+      "level": "Advanced",
+      "category": "Frontend"
+    },
+    {
+      "id": "6h9i2j5k8l1m4",
+      "name": "Recoil State",
+      "level": "Advanced",
+      "category": "State Management"
+    },
+    {
+      "id": "0n3o6p9q2r5s8",
+      "name": "Zustand",
+      "level": "Advanced",
+      "category": "State Management"
+    },
+    {
+      "id": "3t6u9v2w5x8y1",
+      "name": "Redux",
+      "level": "Advanced",
+      "category": "State Management"
+    },
+    {
+      "id": "7z0a3b6c9d2e5",
+      "name": "Material UI",
+      "level": "Advanced",
+      "category": "UI Libraries"
+    },
+    {
+      "id": "1f4g7h0i3j6k9",
+      "name": "Mantine UI",
+      "level": "Advanced",
+      "category": "UI Libraries"
+    },
+    {
+      "id": "5l8m1n4o7p0q3",
+      "name": "Shadcn UI",
+      "level": "Advanced",
+      "category": "UI Libraries"
+    },
+    {
+      "id": "9r2s5t8u1v4w7",
+      "name": "Git",
+      "level": "Advanced",
+      "category": "Tools"
+    },
+    {
+      "id": "4x7y0z3a6b9c2",
+      "name": "REST API",
+      "level": "Advanced",
+      "category": "Backend & APIs"
+    },
+    {
+      "id": "8d1e4f7g0h3i6",
+      "name": "PostgreSQL",
+      "level": "Advanced",
+      "category": "Backend & APIs"
+    },
+    {
+      "id": "2j5k8l1m4n7o0",
+      "name": "Bootstrap",
+      "level": "Advanced",
+      "category": "UI Libraries"
+    },
+    {
+      "id": "6p9q2r5s8t1u4",
+      "name": "Jest",
+      "level": "Advanced",
+      "category": "Testing"
+    },
+    {
+      "id": "1781360392416",
+      "name": "Vitest",
+      "level": "Intermediate",
+      "category": "Testing"
+    },
+    {
+      "id": "1781362448295",
+      "name": "Claude Code",
+      "category": "Tools"
+    },
+    {
+      "id": "1781364416797",
+      "name": "GraphQL",
+      "category": "Backend & APIs"
+    }
+  ],
+  "projects": [
+    {
+      "id": "7h0i3j6k9l2m5",
+      "title": "RAPTOR AI",
+      "description": "<ul><li>Built&nbsp;an&nbsp;<strong>AI-powered&nbsp;developer&nbsp;platform</strong>&nbsp;using&nbsp;<strong>vector-based&nbsp;indexing,&nbsp;embeddings,&nbsp;and&nbsp;semantic&nbsp;retrieval</strong>&nbsp;to&nbsp;enable&nbsp;natural&nbsp;language&nbsp;querying&nbsp;of&nbsp;GitHub&nbsp;codebases.</li><li>Designed&nbsp;and&nbsp;implemented&nbsp;RAG&nbsp;pipelines&nbsp;that&nbsp;analyze&nbsp;<strong>repository&nbsp;context&nbsp;and&nbsp;generate&nbsp;actionable&nbsp;recommendations</strong>,&nbsp;including&nbsp;relevant&nbsp;files,&nbsp;code&nbsp;references,&nbsp;and&nbsp;implementation&nbsp;guidance.</li><li>Developed&nbsp;<strong>multi-user&nbsp;collaboration&nbsp;features</strong>&nbsp;and&nbsp;modern&nbsp;React-based&nbsp;interfaces&nbsp;to&nbsp;support&nbsp;team&nbsp;knowledge&nbsp;sharing&nbsp;and&nbsp;AI-assisted&nbsp;software&nbsp;development&nbsp;workflows.</li></ul>",
+      "link": "https://raptor-madhav.vercel.app/",
+      "githubLink": "https://github.com/madhav-relish/Raptor"
+    },
+    {
+      "id": "1781363138741",
+      "title": "Mad-Medium | Next.js, Hono, TypeScript, PostgreSQL",
+      "description": "<ul><li>Built&nbsp;a&nbsp;full-stack&nbsp;blogging&nbsp;platform&nbsp;using&nbsp;a&nbsp;monorepo&nbsp;architecture&nbsp;with&nbsp;separate&nbsp;frontend,&nbsp;backend,&nbsp;and&nbsp;shared&nbsp;packages&nbsp;for&nbsp;improved&nbsp;maintainability&nbsp;and&nbsp;code&nbsp;reuse.</li><li>Implemented&nbsp;end-to-end&nbsp;type&nbsp;safety&nbsp;by&nbsp;sharing&nbsp;TypeScript&nbsp;types&nbsp;and&nbsp;validation&nbsp;schemas&nbsp;across&nbsp;client&nbsp;and&nbsp;server&nbsp;applications.</li><li>Developed&nbsp;rich&nbsp;text&nbsp;editing&nbsp;and&nbsp;AI-assisted&nbsp;content&nbsp;creation&nbsp;capabilities&nbsp;to&nbsp;enhance&nbsp;the&nbsp;writing&nbsp;experience.</li><li>Designed&nbsp;scalable&nbsp;REST&nbsp;APIs&nbsp;using&nbsp;Hono&nbsp;and&nbsp;integrated&nbsp;authentication,&nbsp;content&nbsp;management,&nbsp;and&nbsp;blog&nbsp;publishing&nbsp;workflows.</li></ul>",
+      "link": "https://mad-medium.vercel.app/",
+      "portfolioOnly": false,
+      "githubLink": "https://github.com/madhav-relish/mad-medium"
+    }
+  ],
+  "selectedTemplate": "minimalist",
+  "openSource": [
+    {
+      "id": "a17319b2-8c89-4731-9828-aa886724b8cc",
+      "project": "March",
+      "role": "Contributor",
+      "description": "<ul><li>Contributed&nbsp;React&nbsp;and&nbsp;TypeScript&nbsp;<strong>enhancements,&nbsp;bug&nbsp;fixes,&nbsp;and&nbsp;feature&nbsp;improvements</strong>&nbsp;through&nbsp;merged&nbsp;pull&nbsp;requests.</li><li>Collaborated&nbsp;with&nbsp;maintainers&nbsp;through&nbsp;<strong>code&nbsp;reviews&nbsp;and&nbsp;iterative&nbsp;feedback</strong>.</li></ul>",
+      "link": "https://github.com/martian-st/march/issues?q=state%3Aclosed%20is%3Apr%20author%3Amadhav-relish"
+    },
+    {
+      "id": "c1b72846-679c-40c5-b516-de960d767662",
+      "project": "Inbox Zero",
+      "role": "Contributor",
+      "description": "<ul><li>Contributed&nbsp;<strong>frontend&nbsp;improvements&nbsp;and&nbsp;bug&nbsp;fixes</strong>&nbsp;to&nbsp;a&nbsp;large-scale&nbsp;open-source&nbsp;email&nbsp;productivity&nbsp;platform&nbsp;built&nbsp;with&nbsp;Next.js&nbsp;and&nbsp;TypeScript.</li></ul>",
+      "link": "https://github.com/elie222/inbox-zero/issues?q=state%3Aclosed%20is%3Apr%20author%3Amadhav-relish"
+    }
+  ]
+}
