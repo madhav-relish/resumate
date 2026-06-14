@@ -156,9 +156,13 @@ export default function PortfolioPage() {
           transition={{ duration: 0.5 }}
           style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4rem' }}
         >
-          <Link href="/editor" className="btn-secondary" style={{ border: 'none', background: 'var(--bg-elevated)', backdropFilter: 'blur(10px)' }}>
-            <ArrowLeft size={18} /> Back to Editor
-          </Link>
+          {process.env.NODE_ENV === 'development' ? (
+            <Link href="/editor" className="btn-secondary" style={{ border: 'none', background: 'var(--bg-elevated)', backdropFilter: 'blur(10px)' }}>
+              <ArrowLeft size={18} /> Back to Editor
+            </Link>
+          ) : (
+            <div></div>
+          )}
           <div style={{ fontWeight: 800, fontSize: '1.25rem', letterSpacing: '-0.05em' }}>
             {firstName.toLowerCase()}<span style={{ color: 'var(--accent-primary)' }}>.</span>portfolio
           </div>

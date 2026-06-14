@@ -11,6 +11,18 @@ export default function Home() {
     window.print();
   };
 
+  if (process.env.NODE_ENV !== 'development') {
+    return (
+      <div style={{ display: 'flex', height: '100vh', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '1.5rem', background: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
+        <h1 style={{ fontSize: '2rem', fontWeight: 800 }}>Editor Disabled</h1>
+        <p style={{ color: 'var(--text-secondary)' }}>The Resumate editor is only available in local development mode.</p>
+        <Link href="/" className="btn-primary" style={{ textDecoration: 'none' }}>
+          View Portfolio
+        </Link>
+      </div>
+    );
+  }
+
   return (
     <div className="print-safe" style={{ display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
       {/* Top Navigation Bar */}
@@ -31,9 +43,9 @@ export default function Home() {
         </div>
 
         <div style={{ display: 'flex', gap: '1rem' }}>
-          <Link href="/portfolio" className="btn-secondary">
+          <Link href="/" className="btn-secondary">
             <Layout size={18} />
-            Generate Portfolio
+            View Portfolio
           </Link>
           <button className="btn-primary" onClick={handlePrint}>
             <Download size={18} />
